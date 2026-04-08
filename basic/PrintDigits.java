@@ -14,5 +14,7 @@ class PrintDigits{
            System.out.println(hundreadPlace);
            System.out.println(thPlace);
 
+           int sum=unitPlace+tenPlace+hundreadPlace+thPlace;
+
 	}
 }
