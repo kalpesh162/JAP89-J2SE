@@ -22,14 +22,14 @@ Widening AND Narrowing  --> ASK MCQ Type Question
 
 byte  1byte  8 bit 
 short 2 byte 16 bit  -32768 32767
-int   4 byte          2147483647   -21747483648
+int   4 byte          2147483647   -2147483648
 
 int num=1212121212;
-long save=num;  // Widening
+long save=num;  // Widening   Implicit Conversion
 ____________________________________
 double val=9.8999;
 float  x=val;  // ERROR   Strict Type Checking
-float x=(float)val;
+float x=(float)val;   // Explicit Conversion
 
 int num=64;
 char letter=(char)(64+i);
