@@ -12,6 +12,7 @@ class PrintEven{
 
 		int j=1;
 		while(j<=100){
+			
 			if(j%2==0){
 			System.out.println(j);
 			}
