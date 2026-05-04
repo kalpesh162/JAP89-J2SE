@@ -4,10 +4,10 @@
 333
 4444
 55555
-4444
-333
-22
-1
+4444             i=6       2*n-i     2*n-6
+333              i=7	   2*n-i	 2*n-7	
+22               i=8	   2*n-i	 2*n-8
+1                i=9	   2*n-i	 2*n-9
 */
 class Example4{
 	public static void main(String[] args) {
