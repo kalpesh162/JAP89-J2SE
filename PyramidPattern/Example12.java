@@ -1,9 +1,9 @@
 /*
-*       *
-**     **
-***   ***
-**** ****
-*********
+1       1
+12     21
+123   321
+1234 4321
+123454321
 */
 class Example12{
 	public static void main(String[] args) {
