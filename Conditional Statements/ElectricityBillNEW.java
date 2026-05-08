@@ -7,7 +7,7 @@ Write a Java program to input electricity unit charges and calculate total elect
     An additional surcharge of 20% is added to the bill
 */
 import java.util.Scanner;
-class ElectricityBill{
+class ElectricityBillNEW{
 	public static void main(String[] args) {
 		int noOfUnits;
 		Scanner scanner=new Scanner(System.in);
@@ -18,11 +18,17 @@ class ElectricityBill{
 			bill=bill+noOfUnits*0.5;
 		}
 		else if(noOfUnits>50 && noOfUnits<=150)   //  51  --- 150
-			bill=bill+noOfUnits*0.75;
-		else if(noOfUnits>150 && noOfUnits<=250)  // 151  ----  250
-			bill=bill+noOfUnits*1.2;
-		else
-			bill=bill+noOfUnits*1.5;              // 251  -----
+		{
+			bill=50*0.5+(noOfUnits-50)*0.75;
+			
+		}
+		else if(noOfUnits>150 && noOfUnits<=250)  // 151  ----  250{
+
+				bill=50*0.5+100*0.75+(noOfUnits-150)*1.2;
+		}		
+		else{
+			bill=50*0.5+100*0.75+250*1.2+(noOfUnits-250)*1.5;
+		}
 
 		double totalBill=bill+bill*0.2;
 
