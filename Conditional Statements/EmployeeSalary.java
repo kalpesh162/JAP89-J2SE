@@ -12,18 +12,34 @@ class  EmployeeSalary{
 		System.out.println("Enter BASIC Salary....");
 		basicSalary=scanner.nextDouble();
 		double grossSalary=0;
+		double hra=0;
+		double da=0;
+
 
 		if(basicSalary<=10000){
-			grossSalary=basicSalary+basicSalary*0.2 + basicSalary*0.8;
+			hra=basicSalary*0.2; da=basicSalary*0.8;
+			grossSalary=basicSalary+hra + da;
 		}
 		else if(basicSalary>10000 && basicSalary<=20000){
-			grossSalary=basicSalary+basicSalary*0.25 + basicSalary*0.9;	
+			hra=basicSalary*0.25; da=basicSalary*0.9;
+			grossSalary=basicSalary+hra + da;
 		}
 		else if(basicSalary>20000){
-			grossSalary=basicSalary+basicSalary*0.3 + basicSalary*0.95;		
+			hra=basicSalary*0.3; da=basicSalary*0.95;
+			grossSalary=basicSalary+hra + da;
 		}
 
 		System.out.println("grossSalary  "+grossSalary);
+
+		System.out.println("-----------------SALARY CALCULATOR---------------------");
+		System.out.println("BASIC SALARY        "+basicSalary);
+		System.out.println("HRA		     "+hra);
+		System.out.println("DA                  "+da);
+		System.out.println("-----------------------------------------");
+		System.out.println("Gross SALARY        "+grossSalary);
+		System.out.println("--------------------------------------");
+
+
 
 	}
 }
