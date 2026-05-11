@@ -60,3 +60,28 @@ class Example3{
 
 }
 
+
+
+/*
+if(l%2==1) {
+						if(i%2==0)
+							System.out.print(" ");
+						else
+							System.out.print("*");
+					}
+					else{
+						if(i%2==1)
+							System.out.print(" ");
+						else
+							System.out.print("*");		
+					}
+if(l%2==1 && i%2==0  || l%2==0 && i%2==1)
+	System.out.print(" ");
+else
+	System.out.print(" ");
+
+
+
+
+
+*/
