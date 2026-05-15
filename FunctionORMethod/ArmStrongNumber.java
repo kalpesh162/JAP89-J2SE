@@ -9,7 +9,6 @@ class ArmStrongNumber{
 		}
 		return cnt;
 	}
-
 	static boolean isArmStrogNum(int n){
 			int temp=n;
 			int digits=countDigits(n);
@@ -19,10 +18,8 @@ class ArmStrongNumber{
 				 	sum=sum+getPower(rem,digits);
 				 	n=n/10;
 			}
-
 			return temp==sum;
 	}
-
 	static int getPower(int x,int y){
 		int sum=1;
 		while(y>0){
