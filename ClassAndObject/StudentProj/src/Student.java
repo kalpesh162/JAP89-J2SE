@@ -17,9 +17,9 @@
 	String getName(){ return name; }
 	double getMarks()  { return marks;}
 
-	void setRollNo(int no){
+	void setRollNo(int no)
 		 rollNo=no;
-	}
+	
 	void setName(String n){
 		name=n;
 	}
