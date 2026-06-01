@@ -1,17 +1,29 @@
 public class Watch{
-	 int hr;
-	 int min;
-	 int sec;
+	// member fileds
+	 private int hr;
+	 private int min;
+	 private int sec;
 
-	 Watch(){ 
+	 public Watch(){ 
 	 	//
 	 	System.out.println(hr +" "+ min +"  "+sec);
 	 	hr=min=sec=10;
 	 }
 	 // 
-	 Watch(int hour,int minute,int seconds){
+	 public Watch(int hr,int min,int sec){
 	 	 	System.out.println(hr +" "+ min +"  "+sec);
-	 	hr=hour; min=minute; sec=seconds;
+	 	this.hr=hr; this.min=min; this.sec=sec;
 	 }
 
+	 public void setHr(int hr){ this.hr=hr;}
+	 public void setMin(int min){ this.min=min;}
+	 public void setSec(int sec){ this.sec=sec;}
+
+	 public int getHr() { return this.hr; }
+	 public int getMin() { return this.min; }
+	 public int getSec() { return this.sec; }
+
+	 public void displayWatch(){
+	 	System.out.println(hr +" : "+min+"  :  "+sec);
+	 }
 }
