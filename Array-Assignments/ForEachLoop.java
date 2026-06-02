@@ -42,6 +42,7 @@ class ForEachLoop{
 }
 
 // Singleton Design Pattern
+
 // for(int i=0;i<arr.length;i++) here programmer cntrolls the index
 // for( int x: arr) java internally manage this
 //for( int x: arr)   internally java uses Iterator Design Pattern
