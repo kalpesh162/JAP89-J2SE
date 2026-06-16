@@ -8,7 +8,7 @@ public class Input2D{
 			for(int j=0;j<arr[i].length;j++){
 				System.out.println("Enter ");
 				arr[i][j]=scanner.nextInt();
-			}
+			}	
 		}
 
 	}
