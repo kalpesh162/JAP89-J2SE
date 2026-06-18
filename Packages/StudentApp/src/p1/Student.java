@@ -3,6 +3,11 @@ public class Student{
 	private int id;
 	private String name;
 	private double marks;
+	private static String institute;
+
+	static{
+		institute="Vibrant Minds";
+	}
 
 	public Student(){}
 	public Student(int id,String name,double marks){
@@ -12,6 +17,11 @@ public class Student{
 	// getter
 
 	// setters
+
+	// instance Function
+	public static String getInstitute(){
+		return institute;
+	}
 
 	public void printStudent(){
 		System.out.printf("%3s %7s %6s","ID","NAME","MARKS");
