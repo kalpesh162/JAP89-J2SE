@@ -8,8 +8,5 @@ public class App{
 		Employee emp=new Employee("Raja",22,23232);
 
 		emp.showEmployee();
-		
-
-
 	}
 }
