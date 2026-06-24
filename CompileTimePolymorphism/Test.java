@@ -27,5 +27,7 @@ class Test{
 		op.doAdd(11,22.22);
 		op.doAdd(11.11,22);
 
+		// Operation.doAdd(11,22)  
+
 	}
 }
