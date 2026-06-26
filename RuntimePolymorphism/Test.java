@@ -8,7 +8,6 @@ class java.lang.Object{
 	 }
 }
 */
-
 class Point{
 	 private int x;
 	 private int y;
@@ -16,19 +15,13 @@ class Point{
 	 	this.x=x;
 	 	this.y=y;
 	 }
-
 	 // setter
 	 // getter
-
 	 @Override
 	 public String toString(){
 	 		return "X "+x+"  Y: "+y;
 	 }
-
-
 }
-
-
 class Test{
 	public static void main(String[] args) {
 			Point p1=new Point(11,22);
@@ -42,5 +35,7 @@ class Test{
 			// Why ? Object --> String   internally toString()
 			// we are printing  p1 internally java call toString method 
 			//
+
+			//System.out.println(p1);  same System.out.println(p1.toString());
 	}
 }
