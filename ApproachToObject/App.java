@@ -86,6 +86,8 @@ class App{
 	    "double",
 	    "int"
 	);
+
+	
 	Scanner scanner=new Scanner(System.in);
 
 	// Code to show this 
