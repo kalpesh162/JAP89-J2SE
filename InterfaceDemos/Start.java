@@ -18,7 +18,7 @@ class ActionHero implements CanFight{
 }
 
 // Multiple Inheritance
-class Hero extends ActionHero implements CanFight,CanSwim,CanFly{
+class Hero extends ActionHero implements CanSwim,CanFly{
 	@Override
 	public void swim(){
 
@@ -45,6 +45,7 @@ class Start{
 
 	public static void main(String[] args) {
 		t(new Hero());
+		v(new Hero());
 
 	}
 }
