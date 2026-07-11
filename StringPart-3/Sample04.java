@@ -11,5 +11,8 @@ class Sample04{
 			System.out.println("-------------");
 		for(String word : words)
 			System.out.println(word);
+
+		System.out.println(Integer.reverse(10));
 	}
 }
+
