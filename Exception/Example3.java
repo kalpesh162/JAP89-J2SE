@@ -6,7 +6,7 @@ public class Example3{
 		// String val=String.valueOf(x);
 		try{
 		//System.out.println(str.length());
-		int number=Integer.parseInt(num);  // UnBoxing
+		int number=Integer.parseInt(num);  // UnBoxing  new NumberFormatException("For input string :"+num);
 		System.out.println(number);
 	}catch(NullPointerException e){
 		System.out.println(e);
