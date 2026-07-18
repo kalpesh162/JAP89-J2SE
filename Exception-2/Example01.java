@@ -10,6 +10,8 @@ public class Example01{
 	}
 
 	// we can throws mutiple Exception
+	// throws is keyword only apply with method
+	// public void methodName() throws 
 	public static void f3() throws IOException,InterruptedException{
 			File file=new File("apple.txt");
 			file.createNewFile();

@@ -24,7 +24,7 @@ public class Example04{
 //throw new ArithmeticException(),new NullPointerException();
 // syntax throw new Type()
 
-// 
+//  class A{}      throw new A();
 
 
 

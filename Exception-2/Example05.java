@@ -27,3 +27,5 @@ public class Example05{
 }
 
 // throw iss generally with customized exception |  used defined exception
+
+
