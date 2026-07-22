@@ -1,5 +1,3 @@
-
-
 class MyRunnable implements Runnable{
 	// BRICKS
 	@Override
