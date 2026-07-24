@@ -14,10 +14,10 @@ public class Sample02{
 	public static void main(String[] args) {
 		
 		// 
-		MyThread t1=new MyThread();
+		MyThread t1=new MyThread();   // NEW
 		t1.setName("Banti");
 		//t1.run();
-		t1.start();  // Here is Thread Created 
+		t1.start();  // Here is Thread Created   // RUNNABLE
 
 		for(int i=1;i<=10;i++)
 			System.out.println(11*i +"  "+Thread.currentThread().getName());

@@ -35,9 +35,7 @@ public class Example01{
 		t1.join();
 	}catch(InterruptedException e){
 
-	}
-
-   
+	}   
 		for(int i=1;i<=5;i++){
 			System.out.println(Thread.currentThread().getName() +"  "+(17*i));
 			try{

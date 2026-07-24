@@ -20,3 +20,5 @@ public class Sample01{
 				
 	}
 }
+
+// JVM   ---> main --> main method run karane
